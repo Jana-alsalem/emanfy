@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC58089429BF5E2300E41B33 /* emanfy1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58089329BF5E2300E41B33 /* emanfy1App.swift */; };
+		AC58089629BF5E2300E41B33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58089529BF5E2300E41B33 /* ContentView.swift */; };
+		AC58089829BF5E2400E41B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC58089729BF5E2400E41B33 /* Assets.xcassets */; };
+		AC58089B29BF5E2400E41B33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC58089A29BF5E2400E41B33 /* Preview Assets.xcassets */; };
+		AC5808A529BF5E2400E41B33 /* emanfy1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808A429BF5E2400E41B33 /* emanfy1Tests.swift */; };
+		AC5808AF29BF5E2400E41B33 /* emanfy1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808AE29BF5E2400E41B33 /* emanfy1UITests.swift */; };
+		AC5808B129BF5E2400E41B33 /* emanfy1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808B029BF5E2400E41B33 /* emanfy1UITestsLaunchTests.swift */; };
+		AC5808C329C0ADB400E41B33 /* viewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808C229C0ADB400E41B33 /* viewA.swift */; };
+		AC5808C629C0BD7700E41B33 /* viewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808C529C0BD7700E41B33 /* viewB.swift */; };
+		AC5808C829C1EEB600E41B33 /* viewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808C729C1EEB600E41B33 /* viewC.swift */; };
+		AC5808CA29C3318500E41B33 /* game2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808C929C3318500E41B33 /* game2.swift */; };
+		AC5808CC29C3544D00E41B33 /* game2True.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808CB29C3544D00E41B33 /* game2True.swift */; };
+		AC5808CE29C35EDB00E41B33 /* game2False.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808CD29C35EDB00E41B33 /* game2False.swift */; };
+		AC5808D029C744D800E41B33 /* firstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808CF29C744D800E41B33 /* firstPage.swift */; };
+		AC5808D229C745E500E41B33 /*  GENDER.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808D129C745E500E41B33 /*  GENDER.swift */; };
+		AC5808D429C74B4D00E41B33 /* namepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808D329C74B4D00E41B33 /* namepage.swift */; };
+		AC5808D629C74C2400E41B33 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808D529C74C2400E41B33 /* MainView.swift */; };
+		AC5808D829C7585400E41B33 /* drag and drop game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808D729C7585400E41B33 /* drag and drop game.swift */; };
+		AC5808DA29C8862500E41B33 /* sora.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808D929C8862500E41B33 /* sora.swift */; };
+		AC5808DC29C8A09900E41B33 /* PRAYERTRACER.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808DB29C8A09900E41B33 /* PRAYERTRACER.swift */; };
+		AC5808DE29C8A81400E41B33 /* FASTINGTRAKER.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808DD29C8A81400E41B33 /* FASTINGTRAKER.swift */; };
+		AC5808E029C8A8EC00E41B33 /* eid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808DF29C8A8EB00E41B33 /* eid.swift */; };
+		AC5808E229C8AF1800E41B33 /* Quran.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5808E129C8AF1800E41B33 /* Quran.swift */; };
+		AC58090D29C8EEEA00E41B33 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC58090F29C8EEEA00E41B33 /* Localizable.strings */; };
+		AC58091829C8F29E00E41B33 /* 001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC58091729C8F29E00E41B33 /* 001.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC5808A129BF5E2400E41B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC58088829BF5E2300E41B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC58088F29BF5E2300E41B33;
+			remoteInfo = emanfy1;
+		};
+		AC5808AB29BF5E2400E41B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC58088829BF5E2300E41B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC58088F29BF5E2300E41B33;
+			remoteInfo = emanfy1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC58089029BF5E2300E41B33 /* emanfy1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emanfy1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC58089329BF5E2300E41B33 /* emanfy1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emanfy1App.swift; sourceTree = "<group>"; };
+		AC58089529BF5E2300E41B33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC58089729BF5E2400E41B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC58089A29BF5E2400E41B33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC5808A029BF5E2400E41B33 /* emanfy1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emanfy1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5808A429BF5E2400E41B33 /* emanfy1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emanfy1Tests.swift; sourceTree = "<group>"; };
+		AC5808AA29BF5E2400E41B33 /* emanfy1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emanfy1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5808AE29BF5E2400E41B33 /* emanfy1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emanfy1UITests.swift; sourceTree = "<group>"; };
+		AC5808B029BF5E2400E41B33 /* emanfy1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emanfy1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC5808C229C0ADB400E41B33 /* viewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewA.swift; sourceTree = "<group>"; };
+		AC5808C529C0BD7700E41B33 /* viewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewB.swift; sourceTree = "<group>"; };
+		AC5808C729C1EEB600E41B33 /* viewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewC.swift; sourceTree = "<group>"; };
+		AC5808C929C3318500E41B33 /* game2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game2.swift; sourceTree = "<group>"; };
+		AC5808CB29C3544D00E41B33 /* game2True.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game2True.swift; sourceTree = "<group>"; };
+		AC5808CD29C35EDB00E41B33 /* game2False.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game2False.swift; sourceTree = "<group>"; };
+		AC5808CF29C744D800E41B33 /* firstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPage.swift; sourceTree = "<group>"; };
+		AC5808D129C745E500E41B33 /*  GENDER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " GENDER.swift"; sourceTree = "<group>"; };
+		AC5808D329C74B4D00E41B33 /* namepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namepage.swift; sourceTree = "<group>"; };
+		AC5808D529C74C2400E41B33 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AC5808D729C7585400E41B33 /* drag and drop game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "drag and drop game.swift"; sourceTree = "<group>"; };
+		AC5808D929C8862500E41B33 /* sora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sora.swift; sourceTree = "<group>"; };
+		AC5808DB29C8A09900E41B33 /* PRAYERTRACER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRAYERTRACER.swift; sourceTree = "<group>"; };
+		AC5808DD29C8A81400E41B33 /* FASTINGTRAKER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FASTINGTRAKER.swift; sourceTree = "<group>"; };
+		AC5808DF29C8A8EB00E41B33 /* eid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eid.swift; sourceTree = "<group>"; };
+		AC5808E129C8AF1800E41B33 /* Quran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quran.swift; sourceTree = "<group>"; };
+		AC58090E29C8EEEA00E41B33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC58091029C8EF0C00E41B33 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC58091729C8F29E00E41B33 /* 001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 001.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC58088D29BF5E2300E41B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC58089D29BF5E2400E41B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5808A729BF5E2400E41B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC58088729BF5E2300E41B33 = {
+			isa = PBXGroup;
+			children = (
+				AC58090F29C8EEEA00E41B33 /* Localizable.strings */,
+				AC58089229BF5E2300E41B33 /* emanfy1 */,
+				AC5808A329BF5E2400E41B33 /* emanfy1Tests */,
+				AC5808AD29BF5E2400E41B33 /* emanfy1UITests */,
+				AC58089129BF5E2300E41B33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC58089129BF5E2300E41B33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC58089029BF5E2300E41B33 /* emanfy1.app */,
+				AC5808A029BF5E2400E41B33 /* emanfy1Tests.xctest */,
+				AC5808AA29BF5E2400E41B33 /* emanfy1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC58089229BF5E2300E41B33 /* emanfy1 */ = {
+			isa = PBXGroup;
+			children = (
+				AC58089329BF5E2300E41B33 /* emanfy1App.swift */,
+				AC58089529BF5E2300E41B33 /* ContentView.swift */,
+				AC5808C129C0AD7800E41B33 /* views */,
+				AC58089729BF5E2400E41B33 /* Assets.xcassets */,
+				AC58089929BF5E2400E41B33 /* Preview Content */,
+			);
+			path = emanfy1;
+			sourceTree = "<group>";
+		};
+		AC58089929BF5E2400E41B33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC58089A29BF5E2400E41B33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC5808A329BF5E2400E41B33 /* emanfy1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC5808A429BF5E2400E41B33 /* emanfy1Tests.swift */,
+			);
+			path = emanfy1Tests;
+			sourceTree = "<group>";
+		};
+		AC5808AD29BF5E2400E41B33 /* emanfy1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC5808AE29BF5E2400E41B33 /* emanfy1UITests.swift */,
+				AC5808B029BF5E2400E41B33 /* emanfy1UITestsLaunchTests.swift */,
+			);
+			path = emanfy1UITests;
+			sourceTree = "<group>";
+		};
+		AC5808C129C0AD7800E41B33 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AC5808C229C0ADB400E41B33 /* viewA.swift */,
+				AC5808C529C0BD7700E41B33 /* viewB.swift */,
+				AC5808C729C1EEB600E41B33 /* viewC.swift */,
+				AC5808C929C3318500E41B33 /* game2.swift */,
+				AC5808CB29C3544D00E41B33 /* game2True.swift */,
+				AC5808CD29C35EDB00E41B33 /* game2False.swift */,
+				AC5808CF29C744D800E41B33 /* firstPage.swift */,
+				AC5808D129C745E500E41B33 /*  GENDER.swift */,
+				AC5808D329C74B4D00E41B33 /* namepage.swift */,
+				AC5808D529C74C2400E41B33 /* MainView.swift */,
+				AC5808D729C7585400E41B33 /* drag and drop game.swift */,
+				AC5808D929C8862500E41B33 /* sora.swift */,
+				AC5808DB29C8A09900E41B33 /* PRAYERTRACER.swift */,
+				AC5808DD29C8A81400E41B33 /* FASTINGTRAKER.swift */,
+				AC5808DF29C8A8EB00E41B33 /* eid.swift */,
+				AC5808E129C8AF1800E41B33 /* Quran.swift */,
+				AC58091729C8F29E00E41B33 /* 001.mp3 */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC58088F29BF5E2300E41B33 /* emanfy1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5808B429BF5E2400E41B33 /* Build configuration list for PBXNativeTarget "emanfy1" */;
+			buildPhases = (
+				AC58088C29BF5E2300E41B33 /* Sources */,
+				AC58088D29BF5E2300E41B33 /* Frameworks */,
+				AC58088E29BF5E2300E41B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emanfy1;
+			productName = emanfy1;
+			productReference = AC58089029BF5E2300E41B33 /* emanfy1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC58089F29BF5E2400E41B33 /* emanfy1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5808B729BF5E2400E41B33 /* Build configuration list for PBXNativeTarget "emanfy1Tests" */;
+			buildPhases = (
+				AC58089C29BF5E2400E41B33 /* Sources */,
+				AC58089D29BF5E2400E41B33 /* Frameworks */,
+				AC58089E29BF5E2400E41B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC5808A229BF5E2400E41B33 /* PBXTargetDependency */,
+			);
+			name = emanfy1Tests;
+			productName = emanfy1Tests;
+			productReference = AC5808A029BF5E2400E41B33 /* emanfy1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC5808A929BF5E2400E41B33 /* emanfy1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5808BA29BF5E2400E41B33 /* Build configuration list for PBXNativeTarget "emanfy1UITests" */;
+			buildPhases = (
+				AC5808A629BF5E2400E41B33 /* Sources */,
+				AC5808A729BF5E2400E41B33 /* Frameworks */,
+				AC5808A829BF5E2400E41B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC5808AC29BF5E2400E41B33 /* PBXTargetDependency */,
+			);
+			name = emanfy1UITests;
+			productName = emanfy1UITests;
+			productReference = AC5808AA29BF5E2400E41B33 /* emanfy1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC58088829BF5E2300E41B33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AC58088F29BF5E2300E41B33 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AC58089F29BF5E2400E41B33 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AC58088F29BF5E2300E41B33;
+					};
+					AC5808A929BF5E2400E41B33 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AC58088F29BF5E2300E41B33;
+					};
+				};
+			};
+			buildConfigurationList = AC58088B29BF5E2300E41B33 /* Build configuration list for PBXProject "emanfy1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = AC58088729BF5E2300E41B33;
+			productRefGroup = AC58089129BF5E2300E41B33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC58088F29BF5E2300E41B33 /* emanfy1 */,
+				AC58089F29BF5E2400E41B33 /* emanfy1Tests */,
+				AC5808A929BF5E2400E41B33 /* emanfy1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC58088E29BF5E2300E41B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC58089B29BF5E2400E41B33 /* Preview Assets.xcassets in Resources */,
+				AC58090D29C8EEEA00E41B33 /* Localizable.strings in Resources */,
+				AC58091829C8F29E00E41B33 /* 001.mp3 in Resources */,
+				AC58089829BF5E2400E41B33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC58089E29BF5E2400E41B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5808A829BF5E2400E41B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC58088C29BF5E2300E41B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC58089629BF5E2300E41B33 /* ContentView.swift in Sources */,
+				AC5808D629C74C2400E41B33 /* MainView.swift in Sources */,
+				AC5808CC29C3544D00E41B33 /* game2True.swift in Sources */,
+				AC5808DE29C8A81400E41B33 /* FASTINGTRAKER.swift in Sources */,
+				AC5808CE29C35EDB00E41B33 /* game2False.swift in Sources */,
+				AC5808D829C7585400E41B33 /* drag and drop game.swift in Sources */,
+				AC5808C829C1EEB600E41B33 /* viewC.swift in Sources */,
+				AC5808E229C8AF1800E41B33 /* Quran.swift in Sources */,
+				AC5808CA29C3318500E41B33 /* game2.swift in Sources */,
+				AC5808E029C8A8EC00E41B33 /* eid.swift in Sources */,
+				AC5808C329C0ADB400E41B33 /* viewA.swift in Sources */,
+				AC58089429BF5E2300E41B33 /* emanfy1App.swift in Sources */,
+				AC5808D229C745E500E41B33 /*  GENDER.swift in Sources */,
+				AC5808DA29C8862500E41B33 /* sora.swift in Sources */,
+				AC5808C629C0BD7700E41B33 /* viewB.swift in Sources */,
+				AC5808D429C74B4D00E41B33 /* namepage.swift in Sources */,
+				AC5808DC29C8A09900E41B33 /* PRAYERTRACER.swift in Sources */,
+				AC5808D029C744D800E41B33 /* firstPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC58089C29BF5E2400E41B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5808A529BF5E2400E41B33 /* emanfy1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5808A629BF5E2400E41B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5808B129BF5E2400E41B33 /* emanfy1UITestsLaunchTests.swift in Sources */,
+				AC5808AF29BF5E2400E41B33 /* emanfy1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC5808A229BF5E2400E41B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC58088F29BF5E2300E41B33 /* emanfy1 */;
+			targetProxy = AC5808A129BF5E2400E41B33 /* PBXContainerItemProxy */;
+		};
+		AC5808AC29BF5E2400E41B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC58088F29BF5E2300E41B33 /* emanfy1 */;
+			targetProxy = AC5808AB29BF5E2400E41B33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC58090F29C8EEEA00E41B33 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC58090E29C8EEEA00E41B33 /* en */,
+				AC58091029C8EF0C00E41B33 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC5808B229BF5E2400E41B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC5808B329BF5E2400E41B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC5808B529BF5E2400E41B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"emanfy1/Preview Content\"";
+				DEVELOPMENT_TEAM = ZNWNX686QU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felwah.emanfy1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC5808B629BF5E2400E41B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"emanfy1/Preview Content\"";
+				DEVELOPMENT_TEAM = ZNWNX686QU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felwah.emanfy1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC5808B829BF5E2400E41B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felwah.emanfy1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emanfy1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/emanfy1";
+			};
+			name = Debug;
+		};
+		AC5808B929BF5E2400E41B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felwah.emanfy1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emanfy1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/emanfy1";
+			};
+			name = Release;
+		};
+		AC5808BB29BF5E2400E41B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felwah.emanfy1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emanfy1;
+			};
+			name = Debug;
+		};
+		AC5808BC29BF5E2400E41B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felwah.emanfy1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emanfy1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC58088B29BF5E2300E41B33 /* Build configuration list for PBXProject "emanfy1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5808B229BF5E2400E41B33 /* Debug */,
+				AC5808B329BF5E2400E41B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5808B429BF5E2400E41B33 /* Build configuration list for PBXNativeTarget "emanfy1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5808B529BF5E2400E41B33 /* Debug */,
+				AC5808B629BF5E2400E41B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5808B729BF5E2400E41B33 /* Build configuration list for PBXNativeTarget "emanfy1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5808B829BF5E2400E41B33 /* Debug */,
+				AC5808B929BF5E2400E41B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5808BA29BF5E2400E41B33 /* Build configuration list for PBXNativeTarget "emanfy1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5808BB29BF5E2400E41B33 /* Debug */,
+				AC5808BC29BF5E2400E41B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC58088829BF5E2300E41B33 /* Project object */;
+}
